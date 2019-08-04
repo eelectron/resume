@@ -1,0 +1,157 @@
+\documentclass[a4paper,10pt]{article}
+\usepackage[top=0.75in, bottom=0.75in, left=0.55in, right=0.85in]{geometry}
+
+% For mathematical symbols
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage{array}
+
+%For adding links
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=magenta,      
+    urlcolor=cyan,
+}
+
+%format section titles
+\usepackage{titlesec}
+\titleformat{\section}
+{\large \bfseries}
+{}
+{0em}       % 0em removed section numbers
+{}[\titlerule]  % underline every section
+
+%Reduce space between lines
+\renewcommand{\baselinestretch}{0.9}
+
+%Use for page count in footer ex "2 of 10"
+\usepackage{lastpage}
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhead{}
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+\fancyfoot[C]{\thepage\ of \pageref{LastPage}}
+
+\begin{document}
+% Resume header
+\begin{table}
+    \begin{tabular}{m{4cm} m{8cm} m{3cm}}
+         \includegraphics[scale=0.2]{nit} & 
+         \begin{tabular}{l}
+         \textbf{Prashant Singh}  \\
+         \textbf{Operations Research} \\ \textbf{National Institute of Technology, Durgapur} \\
+         \end{tabular}
+         & 
+         \begin{tabular}{l} \textbf{M.Tech.} \\ \textbf{psonlinux@gmail.com} \\
+         \textbf{7676798841}
+         \end{tabular}
+    \end{tabular}
+\end{table}
+    
+    
+	% Educational Details
+	\begin{table}
+	\begin{tabular}{p{5cm} p{3cm} p{3cm} p{2cm} p{2cm}}
+	\rule{\textwidth}{2pt} \\
+	\textbf{Examination} & \textbf{University} & \textbf{Institute} & \textbf{Year} & \textbf{CGPA / \%} \\
+	\rule{\textwidth}{2pt} \\
+M.Tech. in Operations Research & NIT, Durgapur & NIT, Durgapur & 2018 & 7.75 \\ \\
+
+B.Tech. in Biotechnology & NIT, Durgapur & NIT, Durgapur & 2011 & 7.0 \\
+\rule{\textwidth}{2pt}
+	\end{tabular}
+	\end{table}
+	
+	
+	% Different section of resume starts from here
+	\section{Employment(s)}
+	\begin{itemize}
+			\item As Teaching Assistant taught following courses
+                \begin{itemize}
+                    \item Numerical Analysis Lab in C language, May 2018 .
+                    \item Operations Research Lab in Matlab, Dec 2017 .
+                \end{itemize}
+            \item System Engineer in TCS (July 2011 - July 2013)
+		        \begin{itemize}
+			    	\item Remotely managed integration servers installed on Redhat systems using linux commands and script.
+					\item Created web services to migrate data from legacy system IBM DB2 database to latest oracle database using Oracle Middleware Technology.
+			\end{itemize}
+	\end{itemize}
+    
+    
+	\section{Course Projects}
+	\begin{itemize}
+				\item M.Tech project: Recognition of printed Odia(A language spoken in India) character using neural network , June 2018.
+				\begin{itemize}
+				    \item recognized 62 basic Odia characters (10 numerical, 12 vowels, 40 consonants) in a given image and convert them to computer editable text using deep neural network. Got an accuracy of 97.75
+				    \item Input layers = 784, hidden layers = 300, output layers = 62
+				    \item Technology used: Python, OpenCV
+				\end{itemize}
+                \item Created web based game 2048 : \url{https://gitlab.com/psonlinux/2048-game-web}
+				\item Created following command line games
+				    \begin{itemize}
+				        \item \href{https://en.wikipedia.org/wiki/2048_(video_game)}{2048} in C++, \url{https://gitlab.com/psonlinux/2048}
+				        \item \href{https://en.wikipedia.org/wiki/15_puzzle}{"Game of Fifteen"} in C, \url{https://gitlab.com/psonlinux/game-of-fifteen}
+				    \end{itemize}
+				\item Created GUI game
+				    \begin{itemize}
+				        \item Breakout in C, \url{https://gitlab.com/psonlinux/breakout}
+				    \end{itemize}
+			\end{itemize}
+			
+	
+	\section{Languages and Technologies}
+	\begin{itemize}
+        \item C++, C, Python, Java, OpenCV, {\LaTeX}, HTML, CSS, Bootstrap, jQuery, JavaScript, MySQL, Oracle 11g, SQL, Matlab, Shell Scripting
+	    \item Vim, Git, GDB, Eclipse IDE, Visual Studio
+        \item Linux, Ubuntu 18.04 LTS
+	\end{itemize}
+	
+	
+	
+	\section{Courses Taken}
+	\begin{itemize}
+	        \item Graduate courses:
+	            \begin{itemize}
+	                \item Programming Language and Data Structure, Automata and Algorithms, Discrete Mathematics, Operations research,  Probability and Statistics, Optimization Techniques, Numerical Methods, Advanced optimization techniques
+	                \item Advanced Statistical Analysis, Advanced operations research 
+	            \end{itemize}
+	        \item Undergraduate courses:
+	            \begin{itemize}
+	                \item Computer Networks, Operating Systems, Data Structures, Communication Network, Databse Management Systems.
+	            \end{itemize}
+	    \end{itemize}
+	    
+	
+    \section{Online Courses}
+	\begin{itemize}
+	        \item Deep Learning Specialization, Coursera, Jan 2019
+	            \begin{itemize}
+	                \item Neural Networks and Deep Learning, Grade Achieved: 98.6\%
+                    \item Structuring Machine Learning Projects, Grade Achieved: 96.7\%
+                    \item Improving Deep Neural Networks: Hyperparameter tuning, Regularization and Optimization, Grade Achieved: 100.0\%
+                    \item Convolutional Neural Networks, Grade Achieved: 98.9\%
+	            \end{itemize}
+            \item CS50's Introduction to Computer Science, Edx, July 2019
+	        \item Introduction to Computational Thinking and Data Science, Grade achieved 97\%, EdX, MIT, Aug, 2018, certificate link \url{https://courses.edx.org/certificates/dedde4a63ca24a20895fa4332c741df4}
+	        \item Introduction to Computer Science and Programming Using Python, Grade achieved  99\%, EdX, MIT, Sept 2017 certificate link \url{https://courses.edx.org/certificates/81b7b36c7f7b484ebb5880094380b472}
+	        \item Machine Learning Stanford University, Coursera, November 2017, Grade Achieved: 97.6\%
+	        \item Algorithms: Design and Analysis, Part 1, Coursera, Grade Achieved: 84.5\%, September 2015
+	        \item Front-End JavaScript Frameworks: AngularJS, Coursera, July 2016
+	        \item Introduction to jQuery,  Grade achieved 98\%, Microsoft DEV208X, EdX
+	        \item Introduction to Computing with Java, Grade achieved 95\%, EdX, Sept, 2014
+	    \end{itemize}
+	
+	
+	\section{Achievements}
+	\begin{itemize}
+				\item All India Rank 1593 among 1,08,495  in \href{https://drive.google.com/file/d/0B-2PYJZE99wQb1NCVHZFQjBsb0U/view}{GATE-2016} in Computer Science .
+                \item Solved 400+ Leetcode problems (\url{https://leetcode.com/psonlinux/})
+                \item Cummins Inc.’s client provided \href{https://drive.google.com/file/d/0B2kfGzkUmzWdbHJJZTRSLWJRVEE/view}{certificate} of appreciation.
+			\end{itemize}
+
+\end{document}
