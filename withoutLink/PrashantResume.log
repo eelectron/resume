@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.5.8)  27 JAN 2020 22:53
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.5.8)  31 JAN 2020 10:25
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -401,21 +401,16 @@ Overfull \hbox (3.14204pt too wide) in paragraph at lines 44--48
 []|[]| 
  []
 
-
-Overfull \hbox (77.05202pt too wide) in paragraph at lines 49--53
-[]|[]| 
- []
-
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 60.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 59.
 (/usr/local/texlive/2019/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 60.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 59.
  [1{/usr/local/texlive/2019/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
 
  <./nit.png>]
-Overfull \hbox (11.73074pt too wide) in paragraph at lines 140--141
+Overfull \hbox (11.73074pt too wide) in paragraph at lines 139--140
 []\OT1/cmr/m/n/10 Improving Deep Neu-ral Net-works: Hy-per-pa-ram-e-ter tun-ing
 , Reg-u-lar-iza-tion and Op-ti-miza-tion, Grade Achieved:
  []
@@ -423,33 +418,32 @@ Overfull \hbox (11.73074pt too wide) in paragraph at lines 140--141
 
 AED: lastpage setting LastPage
 [2]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 170.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 170.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 169.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 169.
  (./PrashantResume.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 170.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 170.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 169.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 169.
 Package rerunfilecheck Info: File `PrashantResume.out' has not changed.
 (rerunfilecheck)             Checksum: F43BAC053A20F9EF0E2115E7EC23D6C2;295.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 170.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 169.
  ) 
 Here is how much of TeX's memory you used:
- 6549 strings out of 492623
- 94857 string characters out of 6129553
- 206806 words of memory out of 5000000
- 10400 multiletter control sequences out of 15000+600000
- 5175 words of font info for 20 fonts, out of 8000000 for 9000
+ 6547 strings out of 492623
+ 94836 string characters out of 6129553
+ 205806 words of memory out of 5000000
+ 10399 multiletter control sequences out of 15000+600000
+ 5007 words of font info for 19 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 28i,16n,43p,403b,463s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 28i,16n,43p,316b,457s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
 ></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
 </usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></
 usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr
-/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/
-local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on PrashantResume.pdf (2 pages, 164553 bytes).
+/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
+Output written on PrashantResume.pdf (2 pages, 147323 bytes).
 PDF statistics:
- 93 PDF objects out of 1000 (max. 8388607)
- 80 compressed objects within 1 object stream
+ 69 PDF objects out of 1000 (max. 8388607)
+ 57 compressed objects within 1 object stream
  9 named destinations out of 1000 (max. 500000)
  54 words of extra memory for PDF output out of 10000 (max. 10000000)
 
